@@ -208,13 +208,11 @@
  * Blogger Template Style
  * Name: Emporio
  **************************************************/
-<!--
 body{
 word-wrap:break-word;
 overflow-wrap:break-word;
 word-break:break-word
 }
--->
 .hidden{
 display:none
 }
@@ -491,7 +489,6 @@ margin-left:40px
 #comments .comment .thread-expanded .comment-block{
 padding-bottom:20px
 }
-<!--
 #comments .comment .comment-header .user,#comments .comment .comment-header .user a{
 color:$(posts.title.color);
 font-style:normal;
@@ -502,7 +499,6 @@ bottom:0;
 margin-bottom:15px;
 position:absolute
 }
--->
 #comments .comment .comment-actions>*{
 margin-right:8px
 }
@@ -516,7 +512,6 @@ font-style:italic
 #comments .comment .comment-footer .comment-timestamp a,#comments .comment .comment-header .datetime,#comments .comment .comment-header .datetime a{
 color:rgba($(posts.title.color.red),$(posts.title.color.green),$(posts.title.color.blue),.54)
 }
-<!--
 #comments .comment .comment-content,.comment .comment-body{
 margin-top:12px;
 word-break:break-word
@@ -524,7 +519,6 @@ word-break:break-word
 .comment-body{
 margin-bottom:12px
 }
--->
 #comments.embed[data-num-comments="0"]{
 border:0;
 margin-top:0;
@@ -1020,11 +1014,9 @@ outline:none
 .dialog input[type=submit]{
 font-family:$(body.text.font.family)
 }
-<!--
 .dialog .goog-buttonset-default{
 color:$(posts.link.color)
 }
--->
 .loading-spinner-large{
 -webkit-animation:mspin-rotate 1568.63ms linear infinite;
 animation:mspin-rotate 1568.63ms linear infinite;
@@ -1175,7 +1167,6 @@ position:relative;
 vertical-align:top;
 width:540px
 }
-<!--
 body{
 background:$(body.background);
 background-color:$(body.background.color);
@@ -1184,16 +1175,12 @@ font:$(body.text.font);
 margin:0;
 min-height:100vh
 }
--->
-<!--
 body,h3,h3.title{
 color:$(body.text.color)
 }
--->
 .post-wrapper .post-title,.post-wrapper .post-title a,.post-wrapper .post-title a:hover,.post-wrapper .post-title a:visited{
 color:$(posts.title.color)
 }
-<!--
 a{
 color:$(body.link.color);
 text-decoration:none
@@ -1204,7 +1191,6 @@ color:$(body.link.visited.color)
 a:hover{
 color:$(body.link.hover.color)
 }
--->
 blockquote{
 color:$(blockquote.color);
 font:$(blockquote.font);
@@ -1245,18 +1231,14 @@ background-position:50%;
 background-size:cover;
 z-index:-1
 }
-<!--
 .centered{
 margin:0 auto;
 position:relative;
 width:$(3 * posts.width.stream + 2 * 16px + 15px + sidebar.width)
 }
--->
-<!--
 .centered .main,.centered .main-container{
 float:$startSide
 }
--->
 .centered .main{
 padding-bottom:1em
 }
@@ -1265,8 +1247,6 @@ clear:both;
 content:"";
 display:table
 }
--->
-<!--
 @media (min-width:$(3 * posts.width.stream + 2 * 16px + 143px + 15px + sidebar.width + 1px)){
 .page_body.has-vertical-ads .centered{
 width:$(3 * posts.width.stream + 2 * 16px + 143px + 15px + sidebar.width)
@@ -1292,7 +1272,6 @@ width:$(posts.width.stream + 15px + sidebar.width)
 max-width:600px;
 width:100%
 }
--->
 }
 .feed-view .post-wrapper.hero,.main,.main-container,.post-filter-message,.top-nav .section{
 width:$(3 * posts.width.stream + 2 * 16px)
@@ -1417,28 +1396,21 @@ margin:10px 0
 .blog-pager{
 text-align:center
 }
-<!--
 .post-title{
 margin:0
 }
 .post-title,.post-title a{
 font:$(posts.title.font)
 }
--->
-<!--
 .post-body{
 display:block;
 font:$(posts.text.font);
 line-height:$(posts.text.lineHeight);
 margin:0
 }
--->
-<!--
 .post-body,.post-snippet{
 color:$(posts.text.color)
 }
--->
-<!--
 .post-snippet{
 font:$(posts.snippet.text.font);
 line-height:$(posts.snippet.text.lineHeight);
@@ -1452,12 +1424,10 @@ bottom:0;
 color:$(posts.text.color);
 position:absolute
 }
--->
 .post-body img{
 height:inherit;
 max-width:100%
 }
-<!--
 .byline,.byline.post-author a,.byline.post-timestamp a{
 color:$(posts.byline.color);
 font:$(posts.byline.font)
@@ -1471,7 +1441,6 @@ text-transform:none
 .item-byline .byline,.post-header .byline{
 margin-$endSide:0
 }
--->
 .post-share-buttons .share-buttons{
 background:$(sharing.background.color);
 color:$(sharing.text.color);
@@ -1521,14 +1490,12 @@ content:close-quote
 margin-bottom:1em;
 margin-top:2em
 }
-<!--
 #blog-pager a{
 color:$(body.button.color);
 cursor:pointer;
 font:$(body.button.font);
 text-transform:uppercase
 }
--->
 .Label{
 overflow-x:hidden
 }
@@ -1536,7 +1503,6 @@ overflow-x:hidden
 list-style:none;
 padding:0
 }
-<!--
 .Label li{
 display:inline-block;
 max-width:100%;
@@ -1544,7 +1510,6 @@ overflow:hidden;
 text-overflow:ellipsis;
 white-space:nowrap
 }
--->
 .Label .first-ten{
 margin-top:16px
 }
@@ -1589,11 +1554,9 @@ overflow-y:auto;
 vertical-align:top;
 width:280px
 }
-<!--
 .PopularPosts h3.title{
 font:$(widget.title.font)
 }
--->
 .PopularPosts .post-title{
 margin:0 0 16px
 }
@@ -1639,7 +1602,6 @@ position:absolute;
 top:calc($(sidebar.posts.text.font.size * 12 / 7) * 3);
 width:96px
 }
-<!--
 .Attribution{
 color:$(attribution.text.color)
 }
@@ -1649,7 +1611,6 @@ color:$(attribution.link.color)
 .Attribution svg{
 fill:$(attribution.icon.color)
 }
--->
 .inline-ad{
 margin-bottom:16px
 }
@@ -1900,7 +1861,6 @@ line-height:48px
 .search .dim-overlay{
 background-color:transparent
 }
-/*
 .centered-top .Header h1{
 box-sizing:border-box;
 color:$(blog.title.color);
@@ -1931,7 +1891,6 @@ white-space:nowrap
 .sticky .centered-top .Header p{
 display:none
 }
-*/
 .subscribe-section-container{
 border-left:0;
 margin:0
@@ -2115,12 +2074,10 @@ margin:0
 body.sidebar-visible .page{
 overflow-y:scroll
 }
-<!--
 .sidebar-container{
 margin-$startSide:15px;
 float:$startSide
 }
--->
 .sidebar-container a{
 color:$(sidebar.link.color);
 font:$(sidebar.link.font)
@@ -2135,11 +2092,9 @@ display:none
 margin:auto 0;
 padding:24px
 }
-<!--
 .sidebar-container .widget .title{
 font:$(widget.title.font)
 }
--->
 @media (min-width:$(posts.width.stream + 15px + sidebar.width + 1px)) and (max-width:$(2 * posts.width.stream + 1 * 16px + 143px + 15px + sidebar.width)){
 .error-view .sidebar-container{
 display:none
@@ -2684,7 +2639,6 @@ border-top:1px solid $(sidebar.separator.color);
 margin-top:0;
 padding:32px
 }
-<!--
 #comments .comment-form .title,#comments h3.title{
 clip:rect(1px,1px,1px,1px);
 border:0;
@@ -2694,7 +2648,6 @@ padding:0;
 position:absolute;
 width:1px
 }
--->
 #comments .comment-form{
 border-bottom:1px solid $(sidebar.separator.color);
 border-top:1px solid $(sidebar.separator.color)
